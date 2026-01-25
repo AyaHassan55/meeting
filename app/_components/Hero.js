@@ -38,13 +38,13 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
               <Button variant="hero" size="xl" asChild>
                 <Link href="/auth/login" className="gap-2">
-                  Get Started Free
+                  Sign Up With Google
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </Button>
               <Button variant="hero-outline" size="xl">
                 <Play className="w-5 h-5" />
-                Watch Demo
+                Sign Up with Facebook
               </Button>
             </div>
 
